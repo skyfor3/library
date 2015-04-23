@@ -7,7 +7,8 @@ String author
 String isbn
 String dateBorrowed
 String returnDate
-String student
+Library library
+
 
 String toString(){title}
 
@@ -18,6 +19,7 @@ author()
 isbn()
 dateBorrowed()
 returnDate()
-student()
+library()
+
     }
 }

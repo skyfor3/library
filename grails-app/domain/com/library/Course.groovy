@@ -8,6 +8,8 @@ String tutor
 String department
 String description
 
+static hasMany=[students:Student]
+
 String toString(){
 "$title, $department"
 }
@@ -18,6 +20,6 @@ title()
 code()
 tutor()
 department()
-description maxSize:5000
+description maxSize:100
     }
 }

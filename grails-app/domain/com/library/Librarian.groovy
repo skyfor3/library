@@ -7,6 +7,8 @@ String email
 String userName
 String password
 String telephone
+Library library
+
 
 String toString(){name}
 
@@ -17,6 +19,7 @@ email()
 userName()
 password()
 telephone()
+library()
 
 
    }
