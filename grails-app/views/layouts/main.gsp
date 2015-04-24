@@ -15,11 +15,12 @@
   		<asset:stylesheet src="application.css"/>
 		<asset:javascript src="application.js"/>
 		<g:layoutHead/>
+                <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 
 		<div id="grailsLogo" role="banner">
-                <a href="http://grails.org"><asset:image src="grails_logo.png" alt="Grails"/></a>
+                <img class="topnav" src="${resource(dir: 'images', file: 'top.png')}"alt="Enrolment System"/></a>
                 <g:loginToggle />
                 </div>
 
