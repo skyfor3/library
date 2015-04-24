@@ -20,12 +20,12 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: librarianInstance, field: 'userName', 'error')} required">
-	<label for="userName">
-		<g:message code="librarian.userName.label" default="User Name" />
+<div class="fieldcontain ${hasErrors(bean: librarianInstance, field: 'username', 'error')} required">
+	<label for="username">
+		<g:message code="librarian.username.label" default="Username" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="userName" required="" value="${librarianInstance?.userName}"/>
+	<g:textField name="username" required="" value="${librarianInstance?.username}"/>
 
 </div>
 

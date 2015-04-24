@@ -28,7 +28,7 @@
 					
 						<g:sortableColumn property="email" title="${message(code: 'librarian.email.label', default: 'Email')}" />
 					
-						<g:sortableColumn property="userName" title="${message(code: 'librarian.userName.label', default: 'User Name')}" />
+						<g:sortableColumn property="username" title="${message(code: 'librarian.username.label', default: 'Username')}" />
 					
 						<g:sortableColumn property="password" title="${message(code: 'librarian.password.label', default: 'Password')}" />
 					
@@ -46,7 +46,7 @@
 					
 						<td>${fieldValue(bean: librarianInstance, field: "email")}</td>
 					
-						<td>${fieldValue(bean: librarianInstance, field: "userName")}</td>
+						<td>${fieldValue(bean: librarianInstance, field: "username")}</td>
 					
 						<td>${fieldValue(bean: librarianInstance, field: "password")}</td>
 					
